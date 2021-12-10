@@ -1,0 +1,30 @@
+---
+title: "Area Of A Circle"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{my-vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(area)
+```
+
+How to install the package?
+- the package is uploaded to github 
+- run the following codes
+1. install.packages("devtools")
+2. library(devtools)
+3. install_github("Jonalu2021/stat2604")
+
+How to use the package?
+- run the following codes
+1. library(area)
